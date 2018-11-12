@@ -1,0 +1,3 @@
+site\qipeng\dubboprovider\DubboProviderApplication.class
+site\qipeng\dubboprovider\service\DefaultDemoService.class
+site\qipeng\dubboprovider\service\DemoService.class

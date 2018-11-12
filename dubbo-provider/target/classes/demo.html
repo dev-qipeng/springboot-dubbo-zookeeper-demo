@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #oldPhone, #newPhone {
+            width: 200px;
+            height: 28px;
+            border-radius: 3px;
+            border: 1px solid #00BFFF;
+        }
+
+        #oldPhone:focus, #newPhone:focus {
+            background-color: yellow;
+        }
+
+        .change-phone-button-div {
+            width: 200px;
+            height: 35px;
+            margin-top: 10px;
+            margin-left: 80px;
+        }
+        .change-phone-button {
+            border: none;
+            border-radius: 2px;
+            background-color: #00BFFF;
+            color: #FFFFFF;
+        }
+        .change-phone-button:active {
+            background-color: #1C86EE;
+        }
+    </style>
+</head>
+<body>
+<div style="width: 800px; height: 800px">
+
+
+    <div id="update-phone" class="update-phone" style="width: 400px; height: 400px">
+
+        <form>
+
+            <label for="oldPhone" style="font-family: 'Microsoft YaHei',serif; font-size: 16px">旧手机号：</label>
+            <input type="text" id="oldPhone" name="oldPhone"/>
+            <br>
+            <br>
+            <label for="newPhone" style="font-family: 'Microsoft YaHei',serif ;font-weight: bold">新手机号：</label>
+            <input type="text" id="newPhone" name="newPhone"/>
+
+            <div class="change-phone-button-div">
+                <div align="left" style="float:left">
+                    <input type="submit" class="change-phone-button" style="width: 80px; height: 35px;" value="确认">
+                </div>
+
+                <div style="float:left; margin-left: 40px">
+                    <input type="button" class="change-phone-button" style="width: 80px; height: 35px;" value="返回">
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+
+</div>
+</body>
+</html>
