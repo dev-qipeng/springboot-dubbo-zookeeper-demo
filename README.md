@@ -37,7 +37,7 @@
 </dependency>
 ```
 
-**dubbo-parent项目的pom文件如下：**
+#### dubbo-parent项目的pom文件如下：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -130,7 +130,7 @@
 - dubbo-provider 生产者服务，发布接口
 - dubbo-consumer 消费者服务，消费接口
 
-**dubbo-api的pom文件如下：**
+#### dubbo-api的pom文件如下：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -159,7 +159,7 @@
 </project>
 ```
 
-**dubbo-provider的pom文件需要引入dubbo-api依赖，并且指定parent，如下：**
+#### dubbo-provider的pom文件需要引入dubbo-api依赖，并且指定parent，如下：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -207,7 +207,7 @@
 </project>
 ```
 
-**dubbo-consumer的pom文件需要引入dubbo-api依赖，并且指定parent，如下：**
+#### dubbo-consumer的pom文件需要引入dubbo-api依赖，并且指定parent，如下：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -259,7 +259,7 @@
 
 zookeeper的安装、配置和启动可以参考https://www.cnblogs.com/Lzf127/p/7155316.html，windows下直接双击zkServer.cmd就启动了。
 
-**dubbo-api共同接口**
+#### dubbo-api项目配置
 
 在此dubbo-api项目中新建HelloService.class的接口，供dubbo-provider和dubbo-consumer使用：
 
@@ -271,7 +271,7 @@ public interface HelloService {
 }
 ```
 
-**dubbo-provider提供者服务配置**
+#### dubbo-provider提供者服务配置
 
 1. 在application.properties配置文件里加入一下配置：
 
@@ -320,7 +320,7 @@ public interface HelloService {
    }
    ```
 
-**dubbo-consumer消费者服务配置**
+#### dubbo-consumer消费者服务配置
 
 1. 在application.properties配置文件中加入如下配置：
 
