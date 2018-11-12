@@ -1,12 +1,12 @@
 # Spring Boot 整合dubbo(dubbo-spring-boot-starter)+zookeeper入门demo示例
 
-> 本文是将Spring Boot与阿里巴巴的开源[dubbo-spring-boot-starter](https://github.com/alibaba/dubbo-spring-boot-starter)整合示例，而非官方Apache的[incubator-dubbo-spring-boot-project](https://github.com/apache/incubator-dubbo-spring-boot-project)，两种开源框架的配置和使用方式有差别，这里选用阿里巴巴自家更新的版本。
+> 本文是将Spring Boot与阿里巴巴的开源[dubbo-spring-boot-starter](https://github.com/alibaba/dubbo-spring-boot-starter)整合示例，而非官方Apache的[incubator-dubbo-spring-boot-project](https://github.com/apache/incubator-dubbo-spring-boot-project)，两种开源框架的配置和使用方式有差别，这里选用阿里巴巴自家更新的版本。本demo代码地址：https://github.com/dev-qipeng/springboot-dubbo-zookeeper-demo
 
 ### 一 .创建Spring Boot项目
 
 需要创建一个maven父项目，及三个module项目，之后讲解各个module的用途，首先使用Idea中Spring Initializr创建maven父项目，只勾选Web，新建好后将pom文件`<packaging>`标签值改成pom，并新增以下依赖，此后各个子module项目无需再引入任何依赖。
 
-![](C:\Users\Administrator\Desktop\勾选依赖.png)
+![](https://raw.githubusercontent.com/dev-qipeng/springboot-dubbo-zookeeper-demo/master/docs/%E5%8B%BE%E9%80%89%E4%BE%9D%E8%B5%96.png)
 
 ```xml
 <dependency>
@@ -387,4 +387,4 @@ http://localhost:8082/hello?name=123
 
 即可看到dubbo-consumer服务调用了dubbo-provider服务实现的方法。
 
-![](C:\Users\Administrator\Desktop\运行结果.png)
+![](https://raw.githubusercontent.com/dev-qipeng/springboot-dubbo-zookeeper-demo/master/docs/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
