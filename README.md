@@ -287,7 +287,7 @@ public interface HelloService {
    spring.dubbo.protocol.host=127.0.0.1
    ```
 
-2. 再项目启动类上加*@EnableDubboConfiguration*注解开启dubbo
+2. 再项目启动类上加`@EnableDubboConfiguration`注解开启dubbo
 
    ```java
    @SpringBootApplication
