@@ -1,6 +1,6 @@
 # Spring Boot 整合dubbo(dubbo-spring-boot-starter)+zookeeper入门demo示例
 
-> 本文是将Spring Boot与阿里巴巴的开源[dubbo-spring-boot-starter](https://github.com/alibaba/dubbo-spring-boot-starter)整合示例，而非官方Apache的[incubator-dubbo-spring-boot-project](https://github.com/apache/incubator-dubbo-spring-boot-project)，两种开源框架的配置和使用方式有差别，这里选用阿里巴巴自家更新的版本。本demo代码地址：https://github.com/dev-qipeng/springboot-dubbo-zookeeper-demo
+> 本文是将Spring Boot与阿里巴巴的开源[dubbo-spring-boot-starter](https://github.com/alibaba/dubbo-spring-boot-starter)整合示例，而非官方Apache的[incubator-dubbo-spring-boot-project](https://github.com/apache/incubator-dubbo-spring-boot-project)，两种开源框架的配置和使用方式有差别，这里选用阿里巴巴自家更新的版本。有关Dubbo介绍请自行百度，本文仅是整合示例。本demo代码地址：https://github.com/dev-qipeng/springboot-dubbo-zookeeper-demo
 
 ### 一 .创建Spring Boot项目
 
